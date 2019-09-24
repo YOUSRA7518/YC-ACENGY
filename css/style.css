@@ -1,0 +1,185 @@
+/* Default Styles */
+h1,
+h4 {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+body {
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+.btn {
+  transition: all 300ms ease-in-out;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: lightblue !important;
+  color: #3c3c3c !important;
+  border: 1px solid #fff !important;
+}
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+/*---------------------------------------------------------------*/
+
+/* Navbar Style*/
+.navbar a:hover {
+  border-bottom: solid 3px lightblue;
+}
+/*---------------------------------------------------------------*/
+
+/* Header Style--*/
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/developper.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 250px;
+}
+.header h3 {
+  text-align: center;
+  color: #fff;
+}
+.header span {
+  font-size: 20px;
+  position: relative;
+  top: -10px;
+  color: lightblue;
+}
+.header strong {
+  color: lightblue;
+}
+.flex-container {
+  display: flex !important;
+  border: 1px solid transparent !important;
+
+  justify-content: center;
+}
+.flex {
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 2;
+  border: 0;
+  background-color: gray;
+}
+/*---------------------------------------------------------------*/
+/*----- Services Styles ------*/
+
+.services {
+  padding: 50px;
+  text-align: center;
+}
+.services h4 {
+  color: #4c4c4c;
+  padding-top: 20px 0 0 20px;
+  margin-top: 30px;
+}
+.services h2 {
+  margin-bottom: 40px;
+}
+.services p {
+  font-size: 14px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  color: #737373;
+}
+.services i {
+  height: 80px;
+  width: 80px;
+  font-size: 35px;
+  padding: 25px 20px;
+  color: white;
+  background-color: lightblue;
+  border-radius: 50%;
+}
+/*---------------------------------------------------------------*/
+/* Team Styles */
+.team {
+  padding: 50px 0px 80px;
+  text-align: center;
+}
+.team h2,
+h4,
+strong {
+  margin: 20px 0px 20px;
+  color: #4c4c4c;
+}
+.team strong {
+  font-weight: 600;
+}
+.team p {
+  color: #737373;
+}
+.team img {
+  margin-top: 80px;
+}
+.team i {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+}
+/*---------------------------------------------------------------*/
+/* Contact Styles */
+.contacts {
+  padding: 50px 0px 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.contacts h2 {
+  color: #fff;
+}
+.contacts p {
+  padding-bottom: 70px;
+  color: #fff;
+  margin: 20px 0 15px;
+}
+.contacts .input-group {
+  margin-bottom: 25px;
+}
+.contacts .btn {
+  margin-top: 5px;
+  width: 100%;
+  font-size: 15px;
+  background-color: transparent;
+  color: #fff;
+}
+/*---------------------------------------------------------------*/
+/* Footer Styles */
+.footer {
+  padding: 30px;
+  color: #737373;
+}
+.footer .social {
+  color: lightblue;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  color: red;
+}
+.footer i {
+  color: red;
+  margin-right: 5px;
+}
+.footer .btn {
+  color: #fff;
+  background-color: lightblue;
+}
